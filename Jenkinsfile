@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git 'https://github.com/envydiace/hello-nodejs.git'
+                git 'https://github.com/envydiace/test-jenkins.git'
             }
         }
     }
